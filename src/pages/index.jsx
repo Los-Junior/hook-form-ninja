@@ -1,4 +1,3 @@
-import FirstChallenge from '../components/forms/FirstChallenge'
 import Layout from '../components/layout'
 
 export default function Home() {
@@ -8,13 +7,9 @@ export default function Home() {
         <h1 className='text-xl font-bold'>
           Bienvenidos a React Hook Form Ninja 🥷
         </h1>
-        <p>
-          A partir de ahora comienza tu camino como ninja, vamos a aprender
-          mucho. Así que prepara tus armas 💻🎧🖱 y completa los desafíos que
-          vendrán a continuación.
-        </p>
-        <FirstChallenge />
+        <p>En esta lección crearemos un form simple para iniciar sesión.</p>
       </div>
+      <form action=''></form>
     </Layout>
   )
 }
