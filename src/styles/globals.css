@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -25,7 +29,7 @@ p,
 ul,
 ol,
 li {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.7rem 0;
   padding: 0;
 }
 
@@ -35,14 +39,33 @@ li {
 
 .error {
   color: #ce453b;
+  margin-bottom: 0.5rem;
 }
 
 .center {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.select {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.datepicker {
+  border: 1px solid #c1c1c1;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.select-error {
+  border-color: red;
 }
 
 @media (max-width: 600px) {

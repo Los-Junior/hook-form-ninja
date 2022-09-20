@@ -1,24 +1,21 @@
 import { useState } from 'react'
-import FirstChallenge from '../components/FirstChallenge'
+import FirstChallenge from '../components/forms/FirstChallenge'
+import Layout from '../components/layout'
 
 export default function Home() {
-  const [showChallenge, setShowChallenge] = useState(false)
-
   return (
-    <div className='main-container'>
-      <h1>Bienvenidos a React Hook Form Ninja 🥷</h1>
-      <p>
-        A partir de ahora comienza tu camino como ninja, vamos a aprender mucho.
-        Así que prepara tus armas 💻🎧🖱 y completa los desafíos que vendrán a
-        continuación.{' '}
-      </p>
-      {showChallenge ? (
+    <Layout>
+      <div className='lg:px-20 py-10'>
+        <h1 className='text-xl font-bold'>
+          Bienvenidos a React Hook Form Ninja 🥷
+        </h1>
+        <p>
+          A partir de ahora comienza tu camino como ninja, vamos a aprender
+          mucho. Así que prepara tus armas 💻🎧🖱 y completa los desafíos que
+          vendrán a continuación.{' '}
+        </p>
         <FirstChallenge />
-      ) : (
-        <button onClick={() => setShowChallenge(true)}>
-          Empezar primer desafío
-        </button>
-      )}
-    </div>
+      </div>
+    </Layout>
   )
 }

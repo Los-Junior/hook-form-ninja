@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 
 const InitialForm = () => {
-  const nameHandler = (e) => {}
-  const lastNameHandler = (e) => {}
   return (
     <form>
       <h1>Primer Desafío</h1>
