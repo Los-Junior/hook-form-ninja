@@ -1,3 +1,4 @@
+import React from 'react'
 import Layout from '../components/layout'
 
 export default function Home() {
@@ -9,7 +10,6 @@ export default function Home() {
         </h1>
         <p>En esta lección crearemos un form simple para iniciar sesión.</p>
       </div>
-      <form action=''></form>
     </Layout>
   )
 }
