@@ -11,7 +11,7 @@ export default function Home() {
         <p>
           A partir de ahora comienza tu camino como ninja, vamos a aprender
           mucho. Así que prepara tus armas 💻🎧🖱 y completa los desafíos que
-          vendrán a continuación.{' '}
+          vendrán a continuación.
         </p>
         <FirstChallenge />
       </div>
