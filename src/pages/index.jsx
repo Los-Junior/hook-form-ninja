@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import FirstChallenge from '../components/forms/FirstChallenge'
 import Layout from '../components/layout'
 
